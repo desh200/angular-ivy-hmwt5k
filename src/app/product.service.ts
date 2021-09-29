@@ -10,7 +10,7 @@ export class ProductService {
         numOfReviews: 2,
       },
       {
-        imageUrl: 'https://loremflickr.com/150/150?random=2',
+        imageUrl: 'https://loremflickr.com/150/150/?random=2',
         productName: 'product2',
         ProductRelease: 'June 23,2017',
         description: 'cras sit amet nibh libero, in gravita...',

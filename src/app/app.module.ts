@@ -5,12 +5,22 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { StarComponent } from './star.component';
-import {StarFillComponent} from './starfill.component';
-import {RatingComponent} from './rating.component';
+import { StarFillComponent } from './starfill.component';
+import { RatingComponent } from './rating.component';
+import { ProductComponent } from './product.component';
+import { ProductsComponent } from './products.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, StarComponent,StarFillComponent,RatingComponent ],
-  bootstrap:    [ AppComponent ]
+  imports: [BrowserModule, FormsModule],
+  declarations: [
+    AppComponent,
+    HelloComponent,
+    StarComponent,
+    StarFillComponent,
+    RatingComponent,
+    ProductComponent,
+    ProductsComponent,
+  ],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
