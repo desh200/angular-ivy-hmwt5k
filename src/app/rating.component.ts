@@ -13,6 +13,7 @@ import { Component, Input } from '@angular/core';
 <ng-container *ngIf="rating < 5; else elseBlock"><star (click)=onClick(5)></star></ng-container>
 <ng-template #elseBlock><starfill></starfill></ng-template>
 `,
+  styles: ['star {color:orange;}', 'starfill {color:orange;}'],
 })
 export class RatingComponent {
   @Input() rating = 0;
