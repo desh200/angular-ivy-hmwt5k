@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 @Component({
   selector: 'rating',
   template: `
@@ -15,7 +15,7 @@ import { Component } from '@angular/core';
 `,
 })
 export class RatingComponent {
-  rating = 0;
+  @Input() rating = 0;
   onClick(ratingvalue) {
     this.rating = ratingvalue;
   }
