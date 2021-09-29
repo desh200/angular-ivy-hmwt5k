@@ -2,7 +2,7 @@ export class ProductService {
   getProducts() {
     return [
       {
-        imageUrl: 'https://picsum.photos/200',
+        imageUrl: 'https://loremflickr.com/150/150?random=1',
         productName: 'product1',
         ProductRelease: 'May 16,2016',
         description: 'cras sit amet nibh libero, in gravita...',
@@ -10,7 +10,7 @@ export class ProductService {
         numOfReviews: 2,
       },
       {
-        imageUrl: 'https://picsum.photos/200',
+        imageUrl: 'https://loremflickr.com/150/150?random=2',
         productName: 'product2',
         ProductRelease: 'June 23,2017',
         description: 'cras sit amet nibh libero, in gravita...',
@@ -18,7 +18,7 @@ export class ProductService {
         numOfReviews: 6,
       },
       {
-        imageUrl: 'https://picsum.photos/200',
+        imageUrl: 'https://loremflickr.com/150/150?random=3',
         productName: 'product3',
         ProductRelease: 'Mar 16,2016',
         description: 'cras sit amet nibh libero, in gravita...',
@@ -26,7 +26,7 @@ export class ProductService {
         numOfReviews: 7,
       },
       {
-        imageUrl: 'https://picsum.photos/200',
+        imageUrl: 'https://loremflickr.com/150/150?random=4',
         productName: 'product4',
         ProductRelease: 'May 18,2016',
         description: 'cras sit amet nibh libero, in gravita...',
