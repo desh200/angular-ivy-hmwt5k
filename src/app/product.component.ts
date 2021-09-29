@@ -4,7 +4,7 @@ import { Component, Input } from '@angular/core';
   selector: 'product',
   template: `
   <div class="media">
-  <img class="mr-3" src="{{data.imageUrl}}" alt="Generic placeholder image">
+  <img class="mt-3" src="{{data.imageUrl}}" alt="Generic placeholder image">
   <div class="media-body">
     <h5 class="mt-0">{{data.ProductName}}</h5>
     {{data.ProductRelease}}
@@ -16,7 +16,7 @@ import { Component, Input } from '@angular/core';
   </div>
 </div>
   `,
-  styles: ['.media{margin-bottpm: 20px;}'],
+  styles: ['.media{margin-bottom: 20px;}'],
 })
 export class ProductComponent {
   @Input() data;
