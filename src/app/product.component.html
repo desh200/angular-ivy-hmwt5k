@@ -1,0 +1,26 @@
+<div class="media">
+  <div class="media-left">
+    <img
+      class="align-self-start mr-3"
+      src="{{ data.imageUrl }}"
+      src="..."
+      alt="Generic placeholder image"
+    />
+  </div>
+  <div class="media-body">
+    <h5 class="mt-0">{{ data.ProductName }}</h5>
+    {{ data.ProductRelease }}
+    <rating [rating]="data.rating" [numOfReviews]="data.numOfReviews"></rating
+    ><br />
+    <div [ngSwitch]="data.rating">
+      <div *ngSwitchCase="1">Poor</div>
+      <div *ngSwitchCase="2">Fair</div>
+      <div *ngSwitchCase="3">Good</div>
+      <div *ngSwitchCase="4">Very Good</div>
+      <div *ngSwitchCase="5">Excellent</div>
+      <div *ngSwitchDefault>Not Rated</div>
+    </div>
+
+    {{ data.description }}
+  </div>
+</div>
