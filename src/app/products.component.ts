@@ -4,6 +4,7 @@ import { ProductService } from './product.service';
 @Component({
   selector: 'products',
   template: `
+  <div>
   <h2>Products</h2>
   <div *ngFor="let product of products">
   <product [data] = "product"></product>
