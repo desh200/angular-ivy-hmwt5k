@@ -9,6 +9,7 @@ import { StarFillComponent } from './starfill.component';
 import { RatingComponent } from './rating.component';
 import { ProductComponent } from './product.component';
 import { ProductsComponent } from './products.component';
+import { TruncatesPipe } from './truncate.pipe';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -20,6 +21,7 @@ import { ProductsComponent } from './products.component';
     RatingComponent,
     ProductComponent,
     ProductsComponent,
+    TruncatesPipe,
   ],
   bootstrap: [AppComponent],
 })

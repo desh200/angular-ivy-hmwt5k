@@ -9,7 +9,7 @@
   </div>
   <div class="media-body">
     <h5 class="mt-0">{{ data.ProductName }}</h5>
-    {{ data.ProductRelease }}
+    {{ data.ProductRelease | date }}
     <rating [rating]="data.rating" [numOfReviews]="data.numOfReviews"></rating
     ><br />
     <div [ngSwitch]="data.rating">
@@ -21,6 +21,6 @@
       <div *ngSwitchDefault>Not Rated</div>
     </div>
 
-    {{ data.description }}
+    {{ data.description | truncate: 10 }}
   </div>
 </div>
