@@ -10,6 +10,7 @@ import { RatingComponent } from './rating.component';
 import { ProductComponent } from './product.component';
 import { ProductsComponent } from './products.component';
 import { TruncatesPipe } from './truncate.pipe';
+import { JumbotronComponent } from './Jumbotron.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -22,6 +23,7 @@ import { TruncatesPipe } from './truncate.pipe';
     ProductComponent,
     ProductsComponent,
     TruncatesPipe,
+    JumbotronComponent
   ],
   bootstrap: [AppComponent],
 })
